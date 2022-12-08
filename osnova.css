@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(43deg, rgb(181, 65, 65) 0%, rgb(59, 59, 123) 46%, rgb(62, 124, 62) 100%);
+}
+.menu {
+    background: black;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li a{
+    display: block;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 10px;
+    font-size: 10px;
+    color: rgb(145, 44, 44);
+    text-decoration: none;
+    border-radius: 35px;
+    text-transform: uppercase; 
+    transition: all 0.3s easy;
+}
+ul li a:hover,
+ul li a.login{
+    background:rgb(54, 248, 10);
+    color: #000000;
+}
+.picture{
+    width: 150px;
+    height: 100px;
+    margin-right: 300px;
+}
+.menu li ul{
+    position: absolute;
+    min-width: 200px;
+    display: none;
+    min-width: 150px;
+}
+.menu li>ul li a{
+    padding: 10px;
+    text-transform: none;
+}
+.menu li>ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.menu li:hover>ul{
+    display: block;
+}
+
+.wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrap{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.bolje{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.boljeb{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boljeb a{
+    text-decoration: none;
+    color: black;
+    background: rgb(103, 97, 97);
+    font-size: 40px;
+    align-items: center;
+    border-radius: 20px;
+}
+.price{
+    color: rgb(15, 10, 10);
+}
+
+.buttons button:first-child{
+    margin-right: 10px;
+    color: red;
+    
+}
+
+button:first-child:hover{
+    color: rgb(82, 50, 50);
+    
+}
+
+.buttons button:last-child{
+    margin-left: 10px;
+    color: rgb(125, 75, 75);
+    
+}
+button:last-child:hover{
+    background: rgb(24, 18, 24);
+    border-color: rgb(24, 18, 24);
+}
+.buttons button{
+    font-size: 20px;
+}
+.pokaz{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 500px;
+    color: black;
+    background: rgb(103, 97, 97);
+    font-size: 40px;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 380px;
+    margin-top: 30px;
+}
+.footer{
+    background-color: rgb(78, 70, 70);
+    margin-top: 30px;
+}
+.line1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.linetex{
+    font-size: 15px;
+}
+.line2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-decoration: none;
+}
+.linetext1{
+    text-decoration: none;
+    color: aliceblue;
+}
+.line2{
+    display: flex;
+    justify-content: space-around;
+}
+.line3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.price{
+    font-size: 20px;
+}
